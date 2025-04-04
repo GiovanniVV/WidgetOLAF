@@ -270,14 +270,14 @@
 </style>
 <!-- Botón para abrir el chat con ícono -->
 <button id="chat-button" aria-label="Abrir chat">
-  <img src="https://olaf-613468186347.us-central1.run.app/media/Avatares/ADMINISTRACI%C3%93N/OLAF_AZUL_OmvdMAS.jpeg">
+  <img src="https://scontent.floh3-1.fna.fbcdn.net/v/t39.30808-6/482126094_122113539728778866_6476881881439247934_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nXv0hLTLax0Q7kNvwGny1Fz&_nc_oc=AdkwOJk2l0xt89hrzVk4T8zYNFRNBxI-0SIoeoFTpob7xUq_EOvxF_kGtDg6O534cdc&_nc_zt=23&_nc_ht=scontent.floh3-1.fna&_nc_gid=NTMu4skHU2VYmWyDYyClxQ&oh=00_AYF2M0mmCGJnng_a-AdAeveHQxQ-0wPjnevpFdYj3YEOiA&oe=67F5170B">
 </button>
 
 <!-- Contenedor del widget de chat -->
 <div id="chat-widget" aria-live="polite">
   <div id="chat-header">
       <div id="header-content">
-        <img src="https://olaf-613468186347.us-central1.run.app/media/Avatares/ADMINISTRACI%C3%93N/OLAF_AZUL_OmvdMAS.jpeg" class="avatar" alt="Avatar de chat">
+        <img src="https://scontent.floh3-1.fna.fbcdn.net/v/t39.30808-6/482126094_122113539728778866_6476881881439247934_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nXv0hLTLax0Q7kNvwGny1Fz&_nc_oc=AdkwOJk2l0xt89hrzVk4T8zYNFRNBxI-0SIoeoFTpob7xUq_EOvxF_kGtDg6O534cdc&_nc_zt=23&_nc_ht=scontent.floh3-1.fna&_nc_gid=NTMu4skHU2VYmWyDYyClxQ&oh=00_AYF2M0mmCGJnng_a-AdAeveHQxQ-0wPjnevpFdYj3YEOiA&oe=67F5170B" class="avatar" alt="Avatar de chat">
           <div class="header-text">
               <div class="header-name">Sofdino</div>
               <div class="header-status">En línea</div>
@@ -431,10 +431,9 @@
     // Agregar el mensaje del usuario al chat antes de limpiarlo
     appendMessage(message, "user");
 
-    // Limpiar inmediatamente el campo de entrada para mejorar la UX
     let inputField = document.getElementById("chat-input");
     inputField.value = "";
-    inputField.focus(); // Opcional: Mantiene el foco en el input
+    inputField.focus(); 
 
     obtenerUsuarioAutenticado();
 
