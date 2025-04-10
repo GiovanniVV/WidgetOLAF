@@ -98,6 +98,7 @@
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         z-index: 99999;
         transition: transform 0.3s ease, opacity 0.3s ease;
+        overflow: hidden;
         /* Transiciones suaves */
       }
   
@@ -268,7 +269,6 @@
         color: var(--color-input-pregunta);
       }
       #welcome-message {
-        background-color: var(--chat-input-bg);
           width: 320px;              /* Ocupa el 95% del ancho */
           margin: 20% 0px;       /* Centrado horizontal con margen automático y un margen superior/inferior */
           padding: 20px;           /* Espacio interno para separar el contenido */
