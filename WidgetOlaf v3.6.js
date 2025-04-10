@@ -269,7 +269,6 @@
         color: var(--color-input-pregunta);
       }
       #welcome-message {
-          width: 320px;              /* Ocupa el 95% del ancho */
           margin: 20% 0px;       /* Centrado horizontal con margen automático y un margen superior/inferior */
           padding: 20px;           /* Espacio interno para separar el contenido */
           display: flex;
